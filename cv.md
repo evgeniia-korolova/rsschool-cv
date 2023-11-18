@@ -48,7 +48,7 @@ ______
 
 ### My projects:
 
-####Random Game
+#### Random Game
 
 
 [GitHub](https://evgeniia-korolova.github.io/image-galery/)
@@ -58,7 +58,7 @@ _October 2023_
 
 Car race built with HTML, CSS, Vanilla JS
 
-####Image Gallery
+#### Image Gallery
 
 
 [GitHub](https://evgeniia-korolova.github.io/image-galery/)
@@ -74,7 +74,7 @@ __Audio Player__
 
 _September 2023_
 
-####CSS Meme Slider
+#### CSS Meme Slider
 
 
 [GitHub](https://evgeniia-korolova.github.io/cssMemeSlider/)
@@ -84,7 +84,7 @@ Meme Slider built with HTML and pure CSS
 
 _September 2023_
 
-####React Weather Application
+#### React Weather Application
 
 
 [Netlify](https://github.com/evgeniia-korolova/react-weather-app)
@@ -96,7 +96,7 @@ _May 2023_
 This project was built using React, Bootstrap, Fontawesome and RESTful APIs.
 
 
-####Website with the CV
+#### Website with the CV
 
 
 [Netlify](https://fanciful-frangollo-dcc140.netlify.app)
@@ -109,7 +109,7 @@ _April 2023_
 This website was built using only HTML and CSS. It has multiple pages, fully responsive. To build this project Bootstrap and Fontawesome were also used.
 
 
-####Weather Application built with JavaScript
+#### Weather Application built with JavaScript
 
 
 [Netlify](https://unrivaled-sawine-4047c2.netlify.app/)
