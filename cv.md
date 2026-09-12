@@ -109,3 +109,37 @@ This project was built using React, Bootstrap, Fontawesome and RESTful APIs.
 
 ___
 
+### Languages :
+
+* Russian - Native
+* Ukrainian - Intermediate
+* English - C1-C2
+
+___
+
+### Education :
+
+
+* __RS School Course Angular 2026 Q2__
+
+   _May 2026 - August 2026_
+
+* __CyberBionic Systematics__
+
+    Frontend Intern (Angular)
+
+    _February 2026 - April 2026_
+
+* __RS School Course Angular__
+
+    _May 2025 - July 2025_
+
+* __CyberBionic Systematics__
+
+    Front-End Development (Angular)
+
+    _May 2025 - July 2025_
+
+* __RS School Course JavaScript/Front-end. Stage 0__
+
+    _July 2023 - October 2023_
