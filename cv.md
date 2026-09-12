@@ -20,3 +20,24 @@ __E-mail:__ jkod@ukr.net -->
 
 
 ______
+
+### About me
+
+
+I am a motivated Front-End Developer focused on building clean, responsive, and user-friendly web applications. I passionate about writing structured code, implementing modern design layouts, and constantly expanding my technical skills. Eager to contribute to real-world projects and grow within a professional development team.
+
+___
+### Skills and Proficiency:
+
+
+* HTML5, CSS3, Bootstrap
+* JavaScript
+* Typescript
+* Angular
+* RxJs
+* React Basics
+* Git, GitHub
+
+
+
+______
