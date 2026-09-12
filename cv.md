@@ -38,6 +38,74 @@ ___
 * React Basics
 * Git, GitHub
 
-
-
 ______
+
+### My projects:
+
+#### music-flow
+
+
+[GitHub]("https://ng-music-flow.netlify.app/discover/popular)
+
+
+_August 2026_
+
+Music streaming app with Angular + NestJS
+
+#### Hangman
+
+
+[GitHub](https://evgeniia-korolova.github.io/ng-hangman/)
+
+
+_April 2026_
+
+#### Random Game
+
+
+[GitHub](https://evgeniia-korolova.github.io/image-galery/)
+
+
+_October 2023_
+
+Car race built with HTML, CSS, Vanilla JS
+
+#### Image Gallery
+
+
+[GitHub](https://evgeniia-korolova.github.io/image-galery/)
+
+
+_September 2023_
+
+__Audio Player__
+
+
+[GitHub](https://evgeniia-korolova.github.io/audio-player/)
+
+
+_September 2023_
+
+#### CSS Meme Slider
+
+
+[GitHub](https://evgeniia-korolova.github.io/cssMemeSlider/)
+
+Meme Slider built with HTML and pure CSS
+
+
+_September 2023_
+
+#### React Weather Application
+
+
+[Netlify](https://github.com/evgeniia-korolova/react-weather-app)
+
+
+_May 2023_
+
+
+This project was built using React, Bootstrap, Fontawesome and RESTful APIs.
+
+___
+
