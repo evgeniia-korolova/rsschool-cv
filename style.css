@@ -504,3 +504,104 @@ code {
 .author {
     text-align: center;
 }
+
+.footer-item {
+    flex: 1;
+}
+
+.footer-item.git-link {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer-item.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.footer-item.course-link {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-item a {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.footer-item a:hover {
+    color: var(--branding-color);
+}
+
+.footer-item .fa-github {
+    font-size: 1.8rem;
+}
+
+
+.rss-logo {
+    display: block;
+    fill: var(--text-main);
+    transition: fill 0.3s ease, transform 0.2s ease;
+}
+
+.rss-logo:hover {
+    fill: var(--branding-color);
+    transform: scale(1.05);
+}
+
+.author {
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    border-top: 1px solid var(--text-muted);
+    padding-top: 1rem;
+}
+
+
+@media (width <= 576px) {
+    .container-footer {
+        flex-direction: column;
+        gap: 1.25rem;
+    }
+}
+
+.rss-logo-js {
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.rss-logo-js:hover {
+    transform: scale(1.05);
+}
+
+
+.rss-logo-js .rss-text {
+    fill: var(--text-main);
+    transition: fill 0.3s ease;
+}
+
+
+.footer-item:hover .rss-text {
+    fill: var(--branding-color);
+}
+
+
+.rss-logo-js .badge-bg {
+    fill: var(--branding-color);
+    transition: fill 0.3s ease;
+}
+
+.rss-logo-js .badge-letters {
+    fill: var(--card-bg); 
+    transition: fill 0.3s ease;
+}
+
+.rss-logo-js .badge-border {
+    stroke: var(--branding-color);
+    transition: stroke 0.3s ease;
+}
