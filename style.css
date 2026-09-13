@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;  */
+}
+
+:root {
+--branding-bg:rgb(254, 236, 236);
+--branding-color: #6f3434;
+}
