@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" data-theme="dark">
 
 <head>
@@ -8,6 +8,7 @@
   <script src="https://kit.fontawesome.com/269d9d67d6.js"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
 </head>
 
 <body>
@@ -24,8 +25,14 @@
       </div>
 
       <div class="header-actions">
-        <button class="burger-btn" aria-label="Open menu">
-          ☰
+        <button class="burger-btn" aria-label="Open menu" aria-expanded="false">
+          <svg class="ham hamRotate" viewBox="0 0 100 100" width="50">
+            <path class="line top"
+              d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20" />
+            <path class="line middle" d="m 30,50 h 40" />
+            <path class="line bottom"
+              d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20" />
+          </svg>
         </button>
         <button class="theme-toggle" id="theme-toggle"
           aria-label="Toggle theme">
@@ -36,7 +43,7 @@
     <nav class="menu">
       <ul class="menu-list">
         <li>
-          <a href="#about" class="menu-link active">About</a>
+          <a href="#about" class="menu-link link-active">About</a>
         </li>
         <li>
           <a href="#skills" class="menu-link">Skills</a>
@@ -213,7 +220,7 @@
 
         <article class="skills" id="skills">
           <h3>Hard Skills</h3>
-          <ul class="skills-list">
+          <!-- <ul class="skills-list">
             <li>
               <i class="fa-brands fa-html5 icon-color"></i>
               <span class="item">HTML5</span>
@@ -246,20 +253,7 @@
               <i class="fa-brands fa-angular icon-color"></i><span
                 class="item">Angular</span>
             </li>
-            <!-- <li>
-									<i
-										class="fa-solid fa-database"
-										style="color: #6f3434"
-									></i
-									><span class="item">mySQL, SQL Server</span>
-								</li> -->
-            <!-- <li>
-									<i
-										class="fa-brands fa-node-js"
-										style="color: #6f3434"
-									></i
-									><span class="item">Node.js</span>
-								</li> -->
+
             <li>
               <i class="fa-brands fa-square-github icon-color"></i><span
                 class="item">GitHub</span>
@@ -269,7 +263,71 @@
               <i class="fab fa-figma icon-color"></i><span class="item">Figma
                 (for web development)</span>
             </li>
-          </ul>
+          </ul> -->
+          <div class="skills-grid">
+
+            <div class="skill-badge">
+              <i class="fa-brands fa-html5 icon-color"></i>
+              <span class="item">HTML5</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fa-brands fa-css3-alt icon-color"></i>
+              <span class="item">CSS3</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fa-brands fa-sass icon-color"></i>
+              <span class="item">SCSS</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fa-brands fa-bootstrap icon-color"></i>
+              <span class="item">Bootstrap</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fa-solid fa-layer-group icon-color"></i>
+              <span class="item">Angular Material</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fa-solid fa-droplet icon-color"></i>
+              <span class="item">Tailwind</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fa-brands fa-js icon-color"></i>
+              <span class="item">JavaScript</span>
+            </div>
+
+            <div class="skill-badge">
+              <!-- Твоя иконка тайпскрипта (щит или devicon) -->
+              <i class="fa-solid fa-shield-halved icon-color"></i>
+              <span class="item">TypeScript</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fa-brands fa-react icon-color"></i>
+              <span class="item">React (Basics, Redux, RTK)</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fa-brands fa-angular icon-color"></i>
+              <span class="item">Angular</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fa-brands fa-square-github icon-color"></i>
+              <span class="item">GitHub</span>
+            </div>
+
+            <div class="skill-badge">
+              <i class="fab fa-figma icon-color"></i>
+              <span class="item">Figma</span>
+            </div>
+
+          </div>
         </article>
 
         <article class="projects" id="projects">
@@ -451,17 +509,6 @@
     <div class="author">&copy; Evgeniia Korolova 2026</div>
   </footer>
 
-  <script>
-    const btn = document.getElementById("theme-toggle");
-    btn.addEventListener("click", () => {
-      const currentTheme =
-        document.documentElement.getAttribute("data-theme");
-      document.documentElement.setAttribute(
-        "data-theme",
-        currentTheme === "dark" ? "light" : "dark",
-      );
-    });
-  </script>
 </body>
 
 </html>
