@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -11,47 +11,53 @@
 </head>
 
 <body>
-  <header>
-    <div class="container-nav">
-      <input type="checkbox" id="burger">
-      <label for="burger"></label>
-      <nav class="menu">
-        <ul class="menu-list">
-          <li>
-            <a href="#about" class="menu-link">About</a>
-          </li>
-          <li>
-            <a href="#skills" class="menu-link">Skills</a>
-          </li>
-          <li>
-            <a href="#projects" class="menu-link">My Projects</a>
-          </li>
-          <li>
-            <a href="#code" class="menu-link">Code</a>
-          </li>
-          <li>
-            <a href="#education" class="menu-link">Education</a>
-          </li>
-          <li>
-            <a href="#language" class="menu-link">Languages</a>
-          </li>
-          <li>
-            <a href="#contacts" class="menu-link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="container-header">
-      <div class="header-photo">
-        <img width="50" src="./assets/img/photo-evgeniia.jpg"
-          alt="photo of Evgeniia" class="my-photo">
+  <header class="header-container">
+    <div class="header-content">
+      <div class="header-avatar">
+        <img class="avatar-img" src="./assets/img/photo-evgeniia.jpg"
+          alt="photo of Evgeniia">
       </div>
+
+
       <div class="header-info">
         <h1>Evgeniia Korolova</h1>
         <h2>Junior Front-End Developer</h2>
         <h3>based in Ukraine, Odesa</h3>
       </div>
+
+
+
+      <div class="header-actions">
+        <button class="burger-btn" aria-label="Open menu">☰</button>
+        <button class="theme-toggle" id="theme-toggle"
+          aria-label="Toggle theme">🌓</button>
+      </div>
     </div>
+    <nav class="menu">
+      <ul class="menu-list">
+        <li>
+          <a href="#about" class="menu-link active">About</a>
+        </li>
+        <li>
+          <a href="#skills" class="menu-link">Skills</a>
+        </li>
+        <li>
+          <a href="#projects" class="menu-link">My Projects</a>
+        </li>
+        <li>
+          <a href="#code" class="menu-link">Code</a>
+        </li>
+        <li>
+          <a href="#education" class="menu-link">Education</a>
+        </li>
+        <li>
+          <a href="#language" class="menu-link">Languages</a>
+        </li>
+        <li>
+          <a href="#contacts" class="menu-link">Contacts</a>
+        </li>
+      </ul>
+    </nav>
   </header>
   <main>
     <div class="container-main">
@@ -68,20 +74,22 @@
                   class="item">jkod@ukr.net</span></a>
             </li>
             <li>
-              <a href="https://t.me" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+              <a href="https://t.me" target="_blank" rel="noopener noreferrer"
+                aria-label="Telegram">
                 <i class="fa-brands fa-telegram icon-color"></i>
                 <span class="item">@Evgeniia_ods</span>
               </a>
             </li>
             <li>
               <a href="https://www.linkedin.com/in/evgeniia-korolova-9923aa274"
-                target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i
+                target="_blank" rel="noopener noreferrer"
+                aria-label="LinkedIn"><i
                   class="fa-brands fa-linkedin icon-color"></i><span
                   class="item">LinkedIn</span></a>
             </li>
             <li>
-              <a href="https://github.com/evgeniia-korolova" target="_blank" rel="noopener noreferrer"
-                aria-label="Github"><i
+              <a href="https://github.com/evgeniia-korolova" target="_blank"
+                rel="noopener noreferrer" aria-label="Github"><i
                   class="fa-brands fa-github icon-color"></i><span
                   class="item">GitHab</span></a>
             </li>
@@ -210,7 +218,8 @@
               <p class="date">Angular 21</p>
 
               <a href="https://evgeniia-korolova.github.io/ng-dashboard/dashboard"
-                target="_blank" rel="noopener noreferrer">https://ng-music-flow.netlify.app/discover/popular</a>
+                target="_blank"
+                rel="noopener noreferrer">https://ng-music-flow.netlify.app/discover/popular</a>
               <p class="date">2026</p>
             </li>
             <li>
@@ -218,7 +227,8 @@
               <p class="date">Angular 20</p>
 
               <a href="https://evgeniia-korolova.github.io/ng-dashboard/dashboard"
-                target="_blank" rel="noopener noreferrer">https://evgeniia-korolova.github.io/ng-hangman/</a>
+                target="_blank"
+                rel="noopener noreferrer">https://evgeniia-korolova.github.io/ng-hangman/</a>
               <p class="date">2026</p>
             </li>
             <li>
@@ -228,7 +238,8 @@
               </p>
 
               <a href="https://evgeniia-korolova.github.io/ng-dashboard/dashboard"
-                target="_blank" rel="noopener noreferrer">https://evgeniia-korolova.github.io/ng-dashboard/dashboard</a>
+                target="_blank"
+                rel="noopener noreferrer">https://evgeniia-korolova.github.io/ng-dashboard/dashboard</a>
               <p class="date">November 2025</p>
             </li>
             <li>
@@ -238,7 +249,8 @@
               </p>
 
               <a href="https://evgeniia-korolova.github.io/ng-ecommerce/products/all"
-                target="_blank" rel="noopener noreferrer">https://evgeniia-korolova.github.io/ng-ecommerce/products/all</a>
+                target="_blank"
+                rel="noopener noreferrer">https://evgeniia-korolova.github.io/ng-ecommerce/products/all</a>
               <p class="date">October 2025 (in progress)</p>
             </li>
             <li>
@@ -246,7 +258,8 @@
               <p class="date">Angular 19 app</p>
 
               <a href="https://evgeniia-korolova.github.io/movie-db-angular/movie"
-                target="_blank" rel="noopener noreferrer">https://evgeniia-korolova.github.io/movie-db-angular/movie</a>
+                target="_blank"
+                rel="noopener noreferrer">https://evgeniia-korolova.github.io/movie-db-angular/movie</a>
               <p class="date">May 2025 (in progress)</p>
             </li>
             <li>
@@ -256,7 +269,8 @@
               </p>
 
               <a href="https://evgeniia-korolova.github.io/movie-rtk-tailwind/"
-                target="_blank" rel="noopener noreferrer">https://evgeniia-korolova.github.io/movie-rtk-tailwind/</a>
+                target="_blank"
+                rel="noopener noreferrer">https://evgeniia-korolova.github.io/movie-rtk-tailwind/</a>
               <p class="date">December 2024</p>
             </li>
             <li>
@@ -266,7 +280,8 @@
               </p>
 
               <a href="https://evgeniia-korolova.github.io/christmas-shop/"
-                target="_blank" rel="noopener noreferrer">https://evgeniia-korolova.github.io/christmas-shop/</a>
+                target="_blank"
+                rel="noopener noreferrer">https://evgeniia-korolova.github.io/christmas-shop/</a>
               <p class="date">November 2024</p>
             </li>
             <!-- <li>
@@ -303,7 +318,8 @@
               </p>
 
               <a href="https://evgeniia-korolova.github.io/coffee-house/"
-                target="_blank" rel="noopener noreferrer">https://evgeniia-korolova.github.io/coffee-house/</a>
+                target="_blank"
+                rel="noopener noreferrer">https://evgeniia-korolova.github.io/coffee-house/</a>
               <p class="date">2024</p>
             </li>
             <!-- <li>
@@ -390,20 +406,30 @@
   <footer>
     <div class="container-footer">
       <div class="footer-item">
-        <a href="https://github.com/evgeniia-korolova" target="_blank" rel="noopener noreferrer"
-          aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://github.com/evgeniia-korolova" target="_blank"
+          rel="noopener noreferrer" aria-label="GitHub"><i
+            class="fa-brands fa-github"></i></a>
       </div>
       <div class="footer-item">
         <img src="./assets/img/rs-logo.svg" alt="rss-logo" width="30"
           class="rss-logo">
       </div>
       <div class="footer-item">
-        <a href="https://rs.school/js/" target="_blank" rel="noopener noreferrer"
+        <a href="https://rs.school/js/" target="_blank"
+          rel="noopener noreferrer"
           aria-label="RSSchool">https://rs.school/js/</a>
       </div>
     </div>
     <div class="author">&copy; Evgeniia Korolova 2023</div>
   </footer>
+
+  <script>
+    const btn = document.getElementById('theme-toggle');
+    btn.addEventListener('click', () => {
+      const currentTheme = document.documentElement.getAttribute('data-theme');
+      document.documentElement.setAttribute('data-theme', currentTheme === 'dark' ? 'light' : 'dark');
+    });
+  </script>
 </body>
 
 </html>
