@@ -8,3 +8,7 @@
 --branding-bg:rgb(254, 236, 236);
 --branding-color: #6f3434;
 }
+
+i.icon-color {
+    color: var(--branding-color);
+}
