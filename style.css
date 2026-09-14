@@ -46,6 +46,30 @@ body {
 	padding-top: 170px;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: var(--body-bg);
+}
+
+
+::-webkit-scrollbar-thumb {
+    background: var(--branding-color);
+    border-radius: 5px;
+    border: 2px solid var(--body-bg);
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    opacity: 0.9;
+    filter: brightness(1.2); 
+}
+
+
+
 header,
 aside,
 main,
