@@ -46,6 +46,25 @@ body {
 	padding-top: 170px;
 }
 
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: var(--body-bg);
+}
+
+::-webkit-scrollbar-thumb {
+	background: var(--branding-color);
+	border-radius: 5px;
+	border: 2px solid var(--body-bg);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	opacity: 0.9;
+	filter: brightness(1.2);
+}
+
 header,
 aside,
 main,
@@ -80,6 +99,60 @@ button:focus-visible {
 
 h1 {
 	color: var(--branding-color);
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(80px);
+		filter: blur(8px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+		filter: blur(0);
+	}
+}
+
+.main-content article,
+.aside > div,
+.skill-badge {
+	animation-name: fadeInUp;
+	animation-fill-mode: both;
+
+	animation-timeline: view();
+	animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+
+	animation-range: entry 0% cover 35%;
+}
+
+.skill-badge,
+.projects ul li {
+	animation-name: fadeInUp;
+	animation-fill-mode: both;
+	animation-timeline: view();
+	animation-timing-function: cubic-bezier(0.25, 1, 0.5, 1);
+	animation-range: entry 0% contain 20%;
+}
+
+.skill-badge:nth-child(4n + 1) {
+	animation-delay: calc(view-timeline-progress() + 0%);
+}
+.skill-badge:nth-child(4n + 2) {
+	animation-delay: calc(view-timeline-progress() + 5%);
+}
+.skill-badge:nth-child(4n + 3) {
+	animation-delay: calc(view-timeline-progress() + 10%);
+}
+.skill-badge:nth-child(4n + 4) {
+	animation-delay: calc(view-timeline-progress() + 15%);
+}
+
+.projects ul li:nth-child(2n + 1) {
+	animation-delay: calc(view-timeline-progress() + 0%);
+}
+.projects ul li:nth-child(2n + 2) {
+	animation-delay: calc(view-timeline-progress() + 8%);
 }
 
 .container-main {
