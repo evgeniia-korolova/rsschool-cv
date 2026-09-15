@@ -1,1 +1,2 @@
-# rsschool-cv
+- [Markdown CV](https://evgeniia-korolova.github.io/rsschool-cv/cv)
+- [HTML CV](https://evgeniia-korolova.github.io/rsschool-cv/)
